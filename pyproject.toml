@@ -3,7 +3,16 @@ name = "machine-learning-a-to-z--ai-python-and-r"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12,<=3.13"
 dependencies = [
+    "apyori>=1.1.2",
     "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "nltk>=3.9.1",
+    "numpy>=1.26.0,<2.0.0,",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+    "tensorflow>=2.18.0",
+    "xgboost>=2.1.3",
 ]
