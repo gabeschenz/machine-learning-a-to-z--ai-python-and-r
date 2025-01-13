@@ -44,3 +44,33 @@ done
 
 ## Working with the code
 
+As a quick check to make sure that all the packages are installed correctly, you can create a new notebook and run the following code:
+
+```python
+import matplotlib as mp
+import numpy as np
+import pandas as pd
+import sklearn as sk 
+import tensorflow as tf 
+import xgboost as xgb
+
+print(f"matplotlib version: {mp.__version__}")
+print(f"numpy version: {np.__version__}")
+print(f"pandas version: {pd.__version__}")
+print(f"sklearn version: {sk.__version__}")
+print(f"tensorflow version: {tf.__version__}")
+print(f"xgboost version: {xgb.__version__}")
+```
+
+At this moment, I get the following output:
+```
+matplotlib version: 3.10.0
+numpy version: 1.26.4
+pandas version: 2.2.3
+sklearn version: 1.6.1
+tensorflow version: 2.18.0
+xgboost version: 2.1.3
+```
+
+This confirms that all the packages are installed correctly and that you can start working with the code. You can now proceed to the next steps in the project. 
+
