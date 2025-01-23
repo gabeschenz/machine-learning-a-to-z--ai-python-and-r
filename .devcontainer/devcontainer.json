@@ -15,7 +15,8 @@
 			"installJupyterlab": true,
 			"version": "3.12"
 		},
-		"ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
+		"ghcr.io/jsburckhardt/devcontainer-features/uv:1": {},
+		"ghcr.io/devcontainers-extra/features/pre-commit:2": {}
 	},
 
 	"customizations": {

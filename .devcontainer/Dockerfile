@@ -16,4 +16,8 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+
 COPY --from=uv --chown=vscode: /uv /uvx /bin/
+
+COPY pyproject.toml .
+RUN uv sync
